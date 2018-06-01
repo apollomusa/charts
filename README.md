@@ -90,6 +90,8 @@ var plot = new Plottable.Plots.Pie()
 
 ## Victory (FormidableLabs)
 
+[Demo/Code](https://codesandbox.io/s/qxl64pn4p9)
+
 ##### Description:
 
 > An ecosystem of composable React components for building interactive data visualizations
@@ -143,6 +145,8 @@ style={{
 ---
 
 ## react-vis (Uber)
+
+[Demo/Code](https://codesandbox.io/s/yk5n52y57j)
 
 ##### Description:
 
@@ -224,6 +228,8 @@ import { EXTENDED_DISCRETE_COLOR_RANGE } from "theme"
 ---
 
 ## Recharts
+
+[Demo/Code](https://codesandbox.io/s/km7ypr0q53)
 
 ##### Description:
 
