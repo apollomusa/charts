@@ -1,5 +1,12 @@
 # Chart Libraries
 
+- [Plottable (Palantir)](#plottable-palantir)
+- [Victory (FormidableLabs)](#victory-formidablelabs)
+- [react-vis (Uber)](#react-vis-uber)
+- [Recharts](#recharts)
+
+---
+
 ## Plottable (Palantir)
 
 ##### Description:
