@@ -1,9 +1,9 @@
 # Chart Libraries
 
-- [Plottable (Palantir)](#plottable-palantir)
-- [Victory (FormidableLabs)](#victory-formidablelabs)
-- [react-vis (Uber)](#react-vis-uber)
-- [Recharts](#recharts)
+* [Plottable (Palantir)](#plottable-palantir)
+* [Victory (FormidableLabs)](#victory-formidablelabs)
+* [react-vis (Uber)](#react-vis-uber)
+* [Recharts](#recharts)
 
 ---
 
@@ -126,7 +126,6 @@ style={{
 
 ##### Documentation:
 
-* Supports for theming
 * Documentation includes all props, and their types.
 * Complex props link into a `Read about it in detail` section that breaks it down even further.
 * Includes a FAQ that goes over common questions (example, `How can I change the colors of lines and other elements in Victory?`)
@@ -298,3 +297,12 @@ import { EXTENDED_DISCRETE_COLOR_RANGE } from "theme"
   />
 </PieChart>
 ```
+
+---
+
+| Libraries                | Pros                                                                                                                                                                           | Cons                                                                                                                                |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Plottable (Palantir)     | <ul><li>TypeScript</li><li>Official IE9+ support</li></ul>                                                                                                                     | <ul><li>No React components</li><li>Customization is limited</li><li>Not very popular, and repo isn't actively maintained</li></ul> |
+| Victory (FormidableLabs) | <ul><li>React components</li><li>Repo actively maintained</li><li>Theming</li><li>Least num of deps</li><li>Learning curve low</li></ul>                                       | <ul><li>No official TypeScript support</li></ul>                                                                                    |
+| react-vis (Uber)         | <ul><li>React components</li><li>Very customizable</li><li>Theming</li><li>Used in Prod by Uber</li></ul>                                                                      | <ul><li>No official TypeScript support</li><li>Docs are a mess</li><li>High learning curve</li><li>Most num of deps</li></ul>       |
+| Recharts                 | <ul><li>React components</li><li>Repo actively maintained</li><li>Very popoluar, large community</li><li>Learning curve low</li><li>Docs are easy to read and follow</li></ul> | <ul><li>No official TypeScript support</li><li>No support for theming</li><li>Not very customizable, and extensible.</li></ul>      |
