@@ -90,7 +90,7 @@ var plot = new Plottable.Plots.Pie()
 
 ## Victory (FormidableLabs)
 
-[Demo/Code](https://codesandbox.io/s/pkrwq7687j)
+[Demo/Code](https://codesandbox.io/s/qxl64pn4p9)
 
 ##### Description:
 
