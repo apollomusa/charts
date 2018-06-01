@@ -9,6 +9,8 @@
 
 ## Plottable (Palantir)
 
+[Demo/Code](https://codesandbox.io/s/31krw1zymq)
+
 ##### Description:
 
 > Plottable's core philosophy is "Composition over Configuration", so a lot of the API flexibility is in choosing which Components to use, and how to arrange them in Tables, rather than setting high-level properties on the charts.
