@@ -9,8 +9,6 @@
 
 ## Plottable (Palantir)
 
-[Demo/Code](https://codesandbox.io/s/31krw1zymq)
-
 ##### Description:
 
 > Plottable's core philosophy is "Composition over Configuration", so a lot of the API flexibility is in choosing which Components to use, and how to arrange them in Tables, rather than setting high-level properties on the charts.
@@ -53,44 +51,13 @@
 
 ##### Documentation:
 
-* Palantir style documentation, includes code, example, and APIs
+* Compared to Blueprint, docs are lacking and hard to follow.
 
-##### Example code block:
-
-```javascript
-var scale = new Plottable.Scales.Linear();
-var colorScale = new Plottable.Scales.InterpolatedColor();
-colorScale.range(["#BDCEF0", "#5279C7"]);
-var data = [
-  { val: 1 },
-  { val: 2 },
-  { val: 3 },
-  { val: 4 },
-  { val: 5 },
-  { val: 6 }
-];
-
-var plot = new Plottable.Plots.Pie()
-  .addDataset(new Plottable.Dataset(data))
-  .sectorValue(function(d) {
-    return d.val;
-  }, scale)
-  .innerRadius(90)
-  .attr(
-    "fill",
-    function(d) {
-      return d.val;
-    },
-    colorScale
-  )
-  .renderTo("svg#innerradius");
-```
+[Demo/Code](https://codesandbox.io/s/31krw1zymq)
 
 ---
 
 ## Victory (FormidableLabs)
-
-[Demo/Code](https://codesandbox.io/s/346q5k6nkp)
 
 ##### Description:
 
@@ -134,19 +101,11 @@ style={{
 * Complex props link into a `Read about it in detail` section that breaks it down even further.
 * Includes a FAQ that goes over common questions (example, `How can I change the colors of lines and other elements in Victory?`)
 
-##### Example code block:
-
-```javascript
-<VictoryPie
-  data={[{ x: "Cats", y: 35 }, { x: "Dogs", y: 40 }, { x: "Birds", y: 55 }]}
-/>
-```
+[Demo/Code](https://codesandbox.io/s/346q5k6nkp)
 
 ---
 
 ## react-vis (Uber)
-
-[Demo/Code](https://codesandbox.io/s/4z6koov7q9)
 
 ##### Description:
 
@@ -196,40 +155,11 @@ style={{
 * Ran into a few broken links
 * Each component has an API reference section that goes over all props and their types
 
-##### Example code block:
-
-```javascript
-import { EXTENDED_DISCRETE_COLOR_RANGE } from "theme"
-
-<XYPlot
-  xDomain={[-3, 3]}
-  yDomain={[-3, 3]}
-  width={300}
-  getAngle={d => d.time}
-  getAngle0={d => 0}
-  height={300}
->
-  <ArcSeries
-    animation={{
-      damping: 9,
-      stiffness: 300
-    }}
-    radiusDomain={[0, 3]}
-    data={[
-      { time: seconds / 60 * 2 * PI, radius0: 1, radius: 1.5, color: 0 },
-      { time: minutes / 60 * 2 * PI, radius0: 1.6, radius: 2.1, color: 1 },
-      { time: hours / 24 * 2 * PI, radius0: 2.2, radius: 2.7, color: 2 }
-    ]}
-    colorRange={EXTENDED_DISCRETE_COLOR_RANGE}
-  />
-</XYPlot>
-```
+[Demo/Code](https://codesandbox.io/s/4z6koov7q9)
 
 ---
 
 ## Recharts
-
-[Demo/Code](https://codesandbox.io/s/km7ypr0q53)
 
 ##### Description:
 
@@ -279,32 +209,7 @@ import { EXTENDED_DISCRETE_COLOR_RANGE } from "theme"
 * Each chart has a list of available props with their types
 * For props that expose `D3` functionality it also includes `D3` doc links
 
-##### Example code block:
-
-```javascript
-<PieChart width={730} height={250}>
-  <Pie
-    data={data01}
-    dataKey="value"
-    nameKey="name"
-    cx="50%"
-    cy="50%"
-    outerRadius={50}
-    fill="#8884d8"
-  />
-  <Pie
-    data={data02}
-    dataKey="value"
-    nameKey="name"
-    cx="50%"
-    cy="50%"
-    innerRadius={60}
-    outerRadius={80}
-    fill="#82ca9d"
-    label
-  />
-</PieChart>
-```
+[Demo/Code](https://codesandbox.io/s/km7ypr0q53)
 
 ---
 
