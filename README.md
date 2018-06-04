@@ -90,7 +90,7 @@ var plot = new Plottable.Plots.Pie()
 
 ## Victory (FormidableLabs)
 
-[Demo/Code](https://codesandbox.io/s/qxl64pn4p9)
+[Demo/Code](https://codesandbox.io/s/346q5k6nkp)
 
 ##### Description:
 
@@ -146,7 +146,7 @@ style={{
 
 ## react-vis (Uber)
 
-[Demo/Code](https://codesandbox.io/s/yk5n52y57j)
+[Demo/Code](https://codesandbox.io/s/4z6koov7q9)
 
 ##### Description:
 
@@ -192,7 +192,7 @@ style={{
 
 * Not as easy to follow as Victory, requires learning a lot of new technical terms related to D3, and chart/grids
 * For an example, searching for `pie charts` chart:
-  > ArcSeries for radial arcs such as might be found in pie charts.
+  > ArcSeries for radial arcs such as might be found in pie charts. `Pie Chart == RadialChart`
 * Ran into a few broken links
 * Each component has an API reference section that goes over all props and their types
 
