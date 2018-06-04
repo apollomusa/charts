@@ -93,7 +93,8 @@ style={{
 
 ##### Browser support:
 
-* N/A
+* No official list
+* Tested in IE11, renders correctly
 
 ##### Documentation:
 
@@ -145,7 +146,8 @@ style={{
 
 ##### Browser support:
 
-* N/A
+* No official list
+* Tested in IE11, renders correctly
 
 ##### Documentation:
 
@@ -200,7 +202,8 @@ style={{
 
 ##### Browser support:
 
-* N/A
+* No official list
+* Tested in IE11, renders correctly
 
 ##### Documentation:
 
